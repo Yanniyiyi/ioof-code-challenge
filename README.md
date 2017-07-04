@@ -7,7 +7,7 @@ Download the folder, run the index.html in the browser.
 
 2. **Test**  (Available in date-diff-version-2) 
 
-Open the `Specrunner.html` file which under the `jasmine/` folder, in a browser (I only tested the `SpecialDate` function);
+Open the `Specrunner.html` file which under the `jasmine/` folder, in a browser (only tested the `SpecialDate` function);
 
 ### Assumptions
 1. I assume that all the input follows the 'DD MM YYYY' format. The day and month should always be a correct number. I only did validation on the year.
@@ -69,7 +69,13 @@ Click the `from file` radio button. Upload a `txt` file which stores date pairs 
 
 ### How to run
 
+1. **Application**
+
 Download the folder, run the index.html in the browser.
+
+2. **Test**  (Available in date-diff-version-2) 
+
+Open the `Specrunner.html` file which under the `jasmine/` folder, in a browser (only tested the `robotController` class);
 
 ### Assumptions
 
