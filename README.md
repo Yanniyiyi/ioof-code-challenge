@@ -1,5 +1,5 @@
 # ioof-code-challenge
-## Date difference
+## Date difference (I believe version-2 is better)
 ### How to run
 Download the folder, run the index.html in browser.
 ### Assumptions
