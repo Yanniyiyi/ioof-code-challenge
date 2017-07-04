@@ -1,7 +1,14 @@
 # ioof-code-challenge
 ## Date difference (I believe version-2 is better)
 ### How to run
-Download the folder, run the index.html in a browser.
+1. **Application**
+
+Download the folder, run the index.html in the browser.
+
+2. **Test**  (Available in date-diff-version-2) 
+
+Open the `Specrunner.html` file which under the `jasmine/` folder, in a browser (I only tested the `SpecialDate` function);
+
 ### Assumptions
 1. I assume that all the input follows the 'DD MM YYYY' format. The day and month should always be a correct number. I only did validation on the year.
 2. Each pair of date is in a single line. 
@@ -62,13 +69,7 @@ Click the `from file` radio button. Upload a `txt` file which stores date pairs 
 
 ### How to run
 
-1. **Application**
-
 Download the folder, run the index.html in the browser.
-
-2. **Test**  (Available in date-diff-version-2) 
-
-Open the `Specrunner.html` file which under the `jasmine/` folder, in a browser (I only tested the `SpecialDate` function);
 
 ### Assumptions
 
