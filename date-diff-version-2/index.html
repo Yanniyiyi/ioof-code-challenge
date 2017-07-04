@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			text-align: center;
+		}
+		textarea{
+			line-height: 2;
+			display: inline-block;
+			width:40%;
+		}
+
+		#file{
+			display: none;
+		}
+		
+		#input-area{
+			margin:3em;
+		}
+
+		button{
+			line-height: 2;
+			width: 5%;
+		}
+	</style>
+</head>
+<body>
+	<section id="input-area">
+		<input type="radio" name="input-type" id="file-input">From file
+		<input type="radio" name="input-type" id="enter-input" checked>Enter date
+		<input id="file" type='file' accept='text/plain'>
+		<textarea id="dates" type="textarea" rows="8" placeholder="Please input two dates in (DD MM YYYY, DD MM YYYY) format"></textarea>
+		<button id="run">Run</button>
+	</section>
+
+	<div id="result">
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
