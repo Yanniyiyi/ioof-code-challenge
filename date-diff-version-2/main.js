@@ -95,7 +95,7 @@ window.onload = (function() {
 			};
 			SpecialDate.prototype.leapYearDaysPair = {
 				'1': 31,
-				'2': 28,
+				'2': 29,
 				'3': 31,
 				'4': 30,
 				'5': 31,
@@ -123,7 +123,10 @@ window.onload = (function() {
 				'12': 31,
 				'total': 365
 			};
-			SpecialDate.prototype.getMonthDays = function(month) {
+			SpecialDate.prototype.getMonthDays = function(month,year) {
+				if(year){
+					return this.isLeapYear(year) ? this.leapYearDaysPair[month] : this.commonYearDaysPair[month];
+				}
 				return this.isLeapYear() ? this.leapYearDaysPair[month] : this.commonYearDaysPair[month];
 			};
 			SpecialDate.prototype.getYearDays = function(year) {
@@ -131,6 +134,7 @@ window.onload = (function() {
 			};
 		}
 	}
+
 
 /*
     Main function used to get days between a pair of date
