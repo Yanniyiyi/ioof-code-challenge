@@ -34,7 +34,7 @@ Invalide years in line 2 , year should be between 1990 and 2010
 
 Click the `from file` radio button. Upload a `txt` file which stores date pairs in correct format (mentioned in assumptions). Run~~~
 
-### What am I thinking, when I coding
+### What am I thinking, when coding
 
 1. The first method came into my mind is calculating how many years (leap year or not), how many month( how many days in this each month), how many days between to dates, then get a sum. 
 
@@ -75,7 +75,7 @@ Download the folder, run the index.html in browser.
 
 Available commands are listed in the page. Enter the command and **PRESS ENTER** on the keyboard.
 
-### What am I thinking, when I coding
+### What am I thinking, when coding
 
 **Just do it!**
 
